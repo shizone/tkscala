@@ -1,0 +1,26 @@
+<!-- Indices written at Sat, 31 Oct 2009 08:20:37 UTC -->
+
+<datastore-indexes autoGenerate="true">
+<datastore-index kind="Page" ancestor="false" source="manual">
+        <property name="parentPageKey" direction="asc"/>
+        <property name="priority" direction="desc"/>
+    </datastore-index>
+<datastore-index kind="SiteListData" ancestor="false" source="manual">
+        <property name="listKey" direction="asc"/>
+        <property name="createDate" direction="asc"/>
+    </datastore-index>
+<datastore-index kind="Log" ancestor="false" source="manual">
+        <property name="siteKey" direction="asc"/>
+        <property name="createDate" direction="desc"/>
+    </datastore-index> 
+    <datastore-index kind="Comment" ancestor="false" source="manual">
+        <property name="ownerPageKey" direction="asc"/>
+        <property name="createDate" direction="desc"/>
+    </datastore-index>
+
+    <datastore-index kind="Comment" ancestor="false" source="manual">
+        <property name="flag" direction="asc"/>
+        <property name="ownerPageKey" direction="asc"/>
+        <property name="createDate" direction="desc"/>
+    </datastore-index>
+</datastore-indexes>

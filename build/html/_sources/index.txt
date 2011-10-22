@@ -96,7 +96,7 @@ http://groups.google.co.jp/group/tenryo-kurashiki-scala
 詳細
 ----
 
-セッション「REPLで何かごにょごにょやる（仮」）
+セッション「REPLで何かごにょごにょやる（仮）」
 
 * Scalaの対話環境（REPL）の使い方をやったりとか何とか
 
