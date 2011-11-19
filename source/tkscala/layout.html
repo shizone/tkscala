@@ -8,6 +8,7 @@
   <meta name="keywords" content="岡山,倉敷,Scala,勉強会,コミュニティ">
   <title>{{ title }}</title>
   <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
   <script type="text/javascript">
 
     var _gaq = _gaq || [];
@@ -35,6 +36,8 @@
     <a href="index.html">トップページ</a>
     |
     <a href="contents.html">過去の勉強会</a>
+    |
+    <a href="material.html">勉強会資料</a>
   </div>
   <div class="body">
     {%- block document %}
@@ -71,17 +74,16 @@ twitstat.badge.init({
       </ul>
     </div>
     {%- endblock sidebar %}
-    <div class="clear"><hr /></div> 
+    <div class="clear"><hr /></div>
   </div>
 {%- block footer %}
   <div class="footer">
     Copyright (C) {{copyright}}<p/>
     Powered by <a href="http://sphinx.pocoo.org/">Sphinx</a> {{sphinx_version}}<p/>
-    <a href="http://code.google.com/intl/ja/appengine/"><img src="http://code.google.com/appengine/images/appengine-silver-120x30.gif" 
+    <a href="http://code.google.com/intl/ja/appengine/"><img src="http://code.google.com/appengine/images/appengine-silver-120x30.gif"
 alt="Powered by Google App Engine" style="border:none" /></a>
   </div>
 {%- endblock footer %}
 </div>
 </body>
 </html>
-

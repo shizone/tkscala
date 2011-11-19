@@ -3,18 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. title:: 過去の勉強会 - 天領倉敷Scala
+.. title:: 勉強会資料 - 天領倉敷Scala
 
-過去の勉強会
-===========
+勉強会資料
+==========
 
 .. toctree::
    :maxdepth: 1
 
-   00
-   01
-   02
-   03
-   04
-   05
-
+   07_repl
