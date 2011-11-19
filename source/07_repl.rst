@@ -284,8 +284,6 @@ REPLで定義された識別子の一覧を表示します。
 
 <phase>を省略するとアクティブなphaseが表示され、clearを指定するとphaseがクリアされます。
 
-クリアされるとphaseはPerserになる模様。
-
 ※詳細が良く分かってない…
 
 .. code-block:: none
