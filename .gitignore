@@ -1,3 +1,4 @@
 build
+deploy_gae
 gae/war/*
 !gae/war/WEB-INF
